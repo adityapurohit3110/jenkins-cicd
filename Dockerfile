@@ -1,6 +1,6 @@
 FROM nginx:latest
 
-COPY /*html /usr/share/nginx/html/
+COPY /*src /usr/share/nginx/html/
 
 EXPOSE 85
 
